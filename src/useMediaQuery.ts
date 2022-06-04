@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback } from "react";
 import { useWindowDimensions } from "react-native";
 
 type BREAK_POINTS = {
@@ -27,13 +27,7 @@ const initialBreakPoints: BREAK_POINTS = {
 
 function useMediaQuery(customBreakPoints?: BREAK_POINTS) {
   const { width } = useWindowDimensions();
-  const [breakPoints, setBreakPoints] = useState(initialBreakPoints);
-
-  useEffect(() => {
-    if (customBreakPoints) {
-      setBreakPoints(customBreakPoints);
-    }
-  }, [customBreakPoints]);
+  const breakPoints = customBreakPoints ? customBreakPoints : initialBreakPoints;
 
   const resultantDimension = useCallback(
     (base: number, sm?: number, md?: number, lg?: number, xl?: number) => {
