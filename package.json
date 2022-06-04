@@ -1,0 +1,37 @@
+{
+  "name": "rn-media-query-hook",
+  "version": "0.0.7",
+  "description": "React Native Minimalistic UI Library",
+  "main": "dist/useMediaQuery.js",
+  "types": "dist/useMediaQuery.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fateh999/rn-media-query-hook.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Media Query",
+    "Hook"
+  ],
+  "author": "Fateh Farooqui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fateh999/rn-media-query-hook/issues"
+  },
+  "homepage": "https://github.com/fateh999/rn-media-query-hook#readme",
+  "peerDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "react": "*",
+    "react-native": "*",
+    "typescript": "*"
+  }
+}
