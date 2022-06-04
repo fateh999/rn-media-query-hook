@@ -1,6 +1,6 @@
 {
   "name": "rn-media-query-hook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Native Media Query Hook",
   "main": "dist/useMediaQuery.js",
   "types": "dist/useMediaQuery.d.ts",

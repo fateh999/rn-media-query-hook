@@ -5,9 +5,9 @@
 [![npm](https://img.shields.io/npm/dt/rn-media-query-hook.svg?style=for-the-badge)](https://www.npmjs.com/package/rn-media-query-hook)
 [![npm](https://img.shields.io/npm/l/rn-media-query-hook?style=for-the-badge)](https://github.com/fateh999/rn-media-query-hook/blob/master/LICENSE)
 
-React Native Minimalistic UI Library with barebones components to easily create any UI you want
+React Native Media Query Hook
 
-#### Web Demo :
+#### Demo :
 
 https://snack.expo.dev/@fateh999/rn-media-query-hook
 
