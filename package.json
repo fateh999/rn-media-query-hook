@@ -1,7 +1,7 @@
 {
   "name": "rn-media-query-hook",
-  "version": "0.0.7",
-  "description": "React Native Minimalistic UI Library",
+  "version": "0.0.1",
+  "description": "React Native Media Query Hook",
   "main": "dist/useMediaQuery.js",
   "types": "dist/useMediaQuery.d.ts",
   "scripts": {
