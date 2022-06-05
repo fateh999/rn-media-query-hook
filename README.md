@@ -62,7 +62,7 @@ const show = mQL([true, true, true, false, false]);
 
 // or
 
-const show = mQ({ base: true, sm: true, md: true, lg: false, xl: false });
+const show = mQL({ base: true, sm: true, md: true, lg: false, xl: false });
 ```
 
 ### Default Breakpoints :
